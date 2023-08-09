@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+footer,
+header {
+    color: white;
+    background: #1f2937;
+    height: 70px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+
+header>p {
+    font-weight: bold;
+}
+
+footer {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    font-size: 12px;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    font-weight: bold;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px 25px;
+    background: #3883f6;
+    color: white;
+    border-radius: 8px;
+}
+
+section {
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main {
+    background: #1f2937;
+    color: white;
+    display: flex;
+    gap: 30px;
+}
+
+.main>container {
+    width: 350px;
+}
+
+.main>container>h1 {
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+
+.main>container>p {
+    margin-top: 0;
+}
+
+.main>container>button {
+    border:2px solid #3883f6;
+}
+
+.main>img {
+    height: 200px;
+    width: 400px;
+    background: gray;
+    line-height: 200px;
+    text-align: center;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info>content {
+    display: flex;
+    flex-direction: row;
+}
+
+.info .container {
+    width: 150px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 130px;
+    width: 130px;
+    border:3px solid #3883f6;
+    border-radius: 15px;
+}
+
+.quote {
+    background: #e5e7eb;
+}
+
+.quote .text {
+    font-style: italic;
+    font-size: larger;
+    margin-bottom: 0;
+}
+
+.quote>container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote .signature {
+    align-self: flex-end;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.signup>container {
+    width: 700px;
+    background: #3883f6;
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.signup>container>content>h3 {
+    margin: 0;
+}
+
+.signup>container>content>p {
+    margin: 0;
+}
+
+.signup .button {
+    border:2px solid white;
+}
